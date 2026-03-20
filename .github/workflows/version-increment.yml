@@ -60,4 +60,8 @@ jobs:
         env:
           URL: ${{ secrets.REFRESH_URL }}
         run: |
+          if [ -z "$URL" ]; then
+            echo "REFRESH_URL not set, skipping"
+            exit 0
+          fi
           curl --fail-with-body -X POST -H "Content-Type: application/json" -d '{"version": "${{ steps.increment.outputs.version }}"}' $URL

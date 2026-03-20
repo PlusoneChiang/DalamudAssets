@@ -1,5 +1,5 @@
 {
-  "Version": 7,
+  "Version": 8,
   "Package": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/package.zip",
   "Assets": [
     {
@@ -114,12 +114,12 @@
     {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansTC-Regular.ttf",
       "FileName": "UIRes/NotoSansTC-Regular.ttf",
-      "Hash": "PLACEHOLDER"
+      "Hash": "0660187D48A75E73D7068C9A146E00BF6012F0CC"
     },
     {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansSC-Regular.ttf",
       "FileName": "UIRes/NotoSansSC-Regular.ttf",
-      "Hash": "PLACEHOLDER"
+      "Hash": "19E013BD11FB2EA6B895F113E4D9D5A7B5C15547"
     },
     {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/loc/dalamud/dalamud_de.json",

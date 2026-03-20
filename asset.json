@@ -112,6 +112,16 @@
       "Hash": "41CEE0565517A6A1C7457C687273CF9C00159379"
     },
     {
+      "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansTC-Regular.ttf",
+      "FileName": "UIRes/NotoSansTC-Regular.ttf",
+      "Hash": "PLACEHOLDER"
+    },
+    {
+      "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansSC-Regular.ttf",
+      "FileName": "UIRes/NotoSansSC-Regular.ttf",
+      "Hash": "PLACEHOLDER"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/loc/dalamud/dalamud_de.json",
       "FileName": "UIRes/loc/dalamud/dalamud_de.json"
     },

@@ -700,7 +700,7 @@
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudAbout": {
-    "message": "关于",
+    "message": "關於",
     "description": "SettingsTabAbout.get_Title"
   },
   "DalamudSettingsAutoUpdates": {

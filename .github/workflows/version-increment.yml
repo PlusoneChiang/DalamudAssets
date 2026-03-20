@@ -3,7 +3,7 @@ name: Version Increment
 on:
   push:
     branches:
-      - master
+      - tc/assets
   workflow_dispatch:
 
 permissions:
@@ -20,6 +20,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Update Asset Hashes
+        run: |
+          files=$(jq -r '.Assets[] | select(.Hash != null) | .FileName' asset.json)
+          while IFS= read -r filename; do
+            if [ -f "$filename" ]; then
+              hash=$(sha1sum "$filename" | awk '{print toupper($1)}')
+              jq --arg fn "$filename" --arg h "$hash" \
+                '(.Assets[] | select(.FileName == $fn) | .Hash) = $h' \
+                asset.json > asset.json.tmp && mv asset.json.tmp asset.json
+              echo "Updated: $filename → $hash"
+            else
+              echo "Warning: $filename not found, skipping"
+            fi
+          done <<< "$files"
 
       - name: Increment Version
         id: increment

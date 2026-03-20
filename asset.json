@@ -1,5 +1,5 @@
 {
-  "Version": 404,
+  "Version": 1,
   "Assets": [
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/bannedplugin.json",
@@ -145,6 +145,10 @@
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_zh.json",
       "FileName": "UIRes/loc/dalamud/dalamud_zh.json"
+    },
+    {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_tc.json",
+      "FileName": "UIRes/loc/dalamud/dalamud_tc.json"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_tw.json",

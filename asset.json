@@ -153,10 +153,6 @@
     {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/loc/dalamud/dalamud_tw.json",
       "FileName": "UIRes/loc/dalamud/dalamud_tw.json"
-    },
-    {
-      "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/pdb/ffxiv_dx11.pdb",
-      "FileName": "UIRes/pdb/ffxiv_dx11.pdb"
     }
   ]
 }

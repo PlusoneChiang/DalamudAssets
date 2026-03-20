@@ -1,6 +1,6 @@
 {
-  "Version": 5,
-  "Package":"https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/package.zip",
+  "Version": 6,
+  "Package": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/package.zip",
   "Assets": [
     {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/bannedplugin.json",

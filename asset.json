@@ -12,6 +12,16 @@
       "Hash": "7334F0BADA3A7D52E1C642217EB7EA21BE700421"
     },
     {
+      "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansCJKtc-Regular.otf",
+      "FileName": "UIRes/NotoSansCJKtc-Regular.otf",
+      "Hash": "EABDD70935B650402C01E1B80E2760FF2D272FF8"
+    },
+    {
+      "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansCJKtc-Medium.otf",
+      "FileName": "UIRes/NotoSansCJKtc-Medium.otf",
+      "Hash": "BB6ACB9C3AB1D57C671DEEBFE8005037D76CE1B5"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/PlusoneChiang/DalamudAssets/tc/assets/UIRes/NotoSansKR-Regular.otf",
       "FileName": "UIRes/NotoSansKR-Regular.otf",
       "Hash": "5F533D0D5CAF3847AFA2D78301E7B87B3485ECBC"
